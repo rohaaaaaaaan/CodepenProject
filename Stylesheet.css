@@ -1,0 +1,92 @@
+<style>
+    body {
+        font-family: 'Impact', sans-serif; /* A heavy, bold font */
+        background: #111111; /* Dark background for the metal vibe */
+        color: #f2f2f2; /* Light text color for contrast */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url('https://www.transparenttextures.com/patterns/granite.png'); /* Subtle texture for depth */
+        background-size: cover;
+        text-align: center;
+    }
+
+    .container {
+        background: #000000; /* Solid black background for the container */
+        padding: 40px;
+        border-radius: 15px;
+        width: 400px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(5px);
+    }
+
+    h2 {
+        font-size: 2.5em;
+        color: #FF3333; /* Bold red for heavy, intense vibes */
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        margin-bottom: 30px;
+        font-family: 'Metal Mania', cursive; /* A custom, edgy font for the title */
+    }
+
+    p {
+        font-size: 1.1em;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    select, button {
+        margin-top: 20px;
+        padding: 15px;
+        width: 100%;
+        font-size: 1.2em;
+        background-color: #333;
+        border: 2px solid #FF3333;
+        border-radius: 10px;
+        color: #fff;
+        font-family: 'Impact', sans-serif;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    select:focus, button:focus {
+        outline: none;
+        border-color: #fff; /* White glow effect on focus */
+    }
+
+    select:hover, button:hover {
+        background-color: #FF3333; /* Red hover effect */
+        color: #000;
+        border-color: #fff;
+    }
+
+    #result {
+        margin-top: 30px;
+        font-weight: bold;
+        font-size: 1.4em;
+        color: #FFCC00; /* Yellow text for emphasis */
+        text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7); /* Glowing effect */
+    }
+
+    /* Adding some extra flair for the buttons and selects */
+    select, button {
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Add some metal icon-like text effects */
+    .metal-button {
+        font-family: 'Metal Mania', cursive;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .metal-button:focus {
+        box-shadow: 0 0 10px #FF3333;
+    }
+
+</style>
