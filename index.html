@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subgenre quiz</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script> <!-- Link to the external JavaScript file -->
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 420px;
+            text-align: center;
+        }
+        select, button {
+            margin-top: 10px;
+            padding: 8px;
+            width: 100%;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Subgenre quiz</h2>
+
+    <!-- Question 1 -->
+    <p>What type of music style do you prefer?</p>
+    <select id="musicStyle">
+        <option value="">-- Select an option --</option>
+        <option value="fast">Fast paced riffs and strong vocals</option>
+        <option value="groovy">Groovy riffs and rhythmic vocals</option>
+        <option value="aggressive">Aggressive riffs and distorted vocals</option>
+        <option value="heavy">Strong riffs and heavy vocals</option>
+    </select>
+
+    <!-- Question 2 -->
+    <p>What decade of music do you prefer?</p>
+    <select id="musicEra">
+        <option value="">-- Select a decade --</option>
+        <option value="70s">1970s</option>
+        <option value="80s">1980s</option>
+        <option value="90s">1990s</option>
+        <option value="2000s">2000s</option>
+    </select>
+
+    <button id="submitBtn">Submit</button>
+
+    <div id="result"></div>
+</div>
+
+</body>
+</html>
